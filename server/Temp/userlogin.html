@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Welcome to My personal Chef</h1>
+<hr/>
+<div id="main">
+    <h2>User login</h2>
+    <form action="/ulogin" method="post">
+        <label>First Name : </label>
+        <input type="text" placeholder="User name" name="ulname">
+        <label>Password : </label>
+        <input type="password" placeholder="Password" name="ulpass">
+        <button>Login</button>
+    </form>
+</div>
+<hr/>
+<div id="main">
+    <h2>User Signup</h2>
+    <h3> Enter the details below</h3>
+    <form action="/usignup" method="post">
+        <!--<label>User Name : </label>-->
+        <input type="text" placeholder="First name" name="fname"><br/>
+        <!--<label> : </label>-->
+        <input type="text" placeholder="Last name" name="lname"><br/>
+        <!--<label>Password : </label>-->
+        <input type="password" placeholder="Password" name="upass"><br/>
+        <!--<input type="password" placeholder="Password" name="upass"><br/>-->
+        <input type="email" placeholder="xyz@gmail.com" name="uemail"><br/>
+        <input type="number" placeholder="Mobile no" name="uno"><br/>
+        <input type="text" placeholder="Street1" name="ustreet1"><br/>
+        <input type="text" placeholder="Street2" name="ustreet2"><br/>
+        <input type="text" placeholder="city" name="ucity"><br/>
+        <input type="text" placeholder="State" name="ustate"><br/>
+        <input type="number" placeholder="zip code" name="uzip"><br/>
+
+        <br/><button>create account</button>
+    </form>
+</div>
+
+
+
+</body>
+<style>
+    #main{
+        background-color: #cccccc;
+    }
+</style>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Welcome Admin</h1>
+    <hr/>
+<diV id="main">
+<div >
+    <h2>Show All Users</h2>
+    <form action="/mysqlusers">
+        <button>View Users</button>
+    </form>
+</div>
+
+<div>
+    <h2>Delete User by id</h2>
+    <form action="/user_del" method="post">
+        <input placeholder="Enter User id" name="d_id"/>
+        <button>Delete User</button>
+    </form>
+</div>
+</diV>
+<hr/>
+<div id="main">
+    <h2> Recipes and ingredients</h2>
+    <form action="/recipes">
+        <button> show recipes
+        </button>
+    </form><br/>
+    <form action="/ingredients">
+        <button> show ingredients
+        </button>
+    </form>
+</div>
+
+</body>
+<style>
+    #main{
+        background-color: #cccccc;
+    }
+</style>
+</html>
